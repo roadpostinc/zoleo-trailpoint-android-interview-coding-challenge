@@ -1,0 +1,27 @@
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+*.log
+.env
+coverage/
+
+# TrailPoint (Android / Gradle)
+TrailPoint/.gradle/
+TrailPoint/.idea/
+TrailPoint/.kotlin/
+TrailPoint/build/
+TrailPoint/app/build/
+TrailPoint/local.properties
+TrailPoint/*.iml
+TrailPoint/**/*.iml
+TrailPoint/captures/
+*.apk
+*.aab
+
+# mock-server
+mock-server/node_modules/
+mock-server/dist/
+mock-server/coverage/
+mock-server/.env
